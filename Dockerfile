@@ -22,7 +22,7 @@ RUN /tmp/download.sh
 
 ##### FINAL IMAGE #####
 
-FROM openjdk:8u191-jre-alpine3.9
+FROM openjdk:8u191-jdk-alpine3.9
 
 ARG VERSION=7.10.0
 
